@@ -1,0 +1,17 @@
+.MeiodaPagina {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 24vh;
+
+}
+
+.p {
+    font-weight: bold;
+}
+
+.Brigadeiro {
+    border-radius: 20px;
+    
+    -ms-layout-grid: 1;
+}
