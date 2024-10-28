@@ -14,3 +14,20 @@
     overflow: visible;
 }
 
+.bolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+   
+}
+
+.paginainicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
