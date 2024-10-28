@@ -1,14 +1,16 @@
-.Header {
+.cabecalho {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: system-ui;
-    background: #b39283;
+    background: #d9d99b;
     width: 100%;
     height: 5vh;
     border-radius: 10px;
     font-weight: bold;
     position:relative;
-
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    overflow: visible;
 }
 
