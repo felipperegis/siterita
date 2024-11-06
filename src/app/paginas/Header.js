@@ -14,8 +14,8 @@ export default function Header () {
           
           <li> <Link href={'/'}> INICIO </Link>   </li>
           <li> <Link href="/quemsomos">QUEM SOMOS </Link>  </li>
-          <li> <Link href="/layout"> ONDE ESTAMOS</Link></li>
-          <li> FALE CONOSCO</li>
+          <li> <Link href={"/ondeestamos"}> ONDE ESTAMOS</Link></li>
+          <li> <Link href={"/faleconosco "}> FALE CONOSCO</Link></li>
           <li> PRODUTOS </li>
         </ul>
         
