@@ -10,9 +10,11 @@ export default function Footer () {
     return(
     <div className="Footer">
     <p > Aceitamos os cartões .</p>
-    <Image src={visa} className="VisaFooter"/>
-    <Image src={mastercard} className="MastercardFooter"/>
-    <Image src={alelo} className="AleloFooter"/>
+        <div className="containerCartoes"> 
+            <Image src={visa} className="VisaFooter"/>
+            <Image src={mastercard} className="MastercardFooter"/>
+            <Image src={alelo} className="AleloFooter"/>
+        </div>
     <p clas>Copyright © </p>
     </div>
     )
