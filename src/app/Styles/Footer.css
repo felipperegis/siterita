@@ -12,3 +12,22 @@
     border-radius:20px;
     font-size:  10px;
 }
+
+.VisaFooter {
+    align-items: baseline;
+    width: 3%;
+    height: 1vh;
+}
+
+.MastercardFooter {
+    display: flex;
+    width: 3%;
+    height: 1vh;
+}
+
+.AleloFooter {
+    display: flex;
+    align-items: center;
+    width: 3%;
+    height: 1vh;
+}
