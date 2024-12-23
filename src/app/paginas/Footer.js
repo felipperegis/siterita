@@ -9,8 +9,8 @@ import "../Styles/Footer.css"
 export default function Footer () {
     return(
     <div className="Footer">
-    <p > Aceitamos os cartões .</p>
         <div className="containerCartoes"> 
+    <p > Aceitamos os cartões .</p>
             <Image src={visa} className="VisaFooter"/>
             <Image src={mastercard} className="MastercardFooter"/>
             <Image src={alelo} className="AleloFooter"/>
