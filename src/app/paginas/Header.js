@@ -2,14 +2,12 @@ import Link from "next/link"
 import Image from "next/image"
 import cabecalho from "../Styles/cabecalho.css"
 import HomeHeader from "../Styles/Header.css"
-import Home from "../paginas/Imagem/icons8-house-24.png"
-
-import { Roboto } from 'next/font/google'
- 
-const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-})
+import IconeHome from "../paginas/Imagem/IconeHome.svg"
+import QuemSomos from "../paginas/Imagem/QuemSomos.svg"
+import OndeEstamos from "../paginas/Imagem/OndeEstamos.svg"
+import FaleConosco from "../paginas/Imagem/FaleConosco.svg"
+import Produtos from "../paginas/Imagem/Produtos.svg"
+import Roboto from "../paginas/fonts"
 
 
 
@@ -19,13 +17,13 @@ export default function Header ({ Component, pageProps }) {
   return( <>
     <div >
       <nav  >
-        <ul className= "cabecalho">
+        <ul className= "cabecalho {Roboto.ClassName}">
           
-          <li> <Link href={'/'}> INICIO   </Link><Image src={Home} className="px-1" />   </li>
-          <li> <Link href="/quemsomos">QUEM SOMOS </Link>  </li>
-          <li> <Link href={"/ondeestamos"}> ONDE ESTAMOS</Link></li>
-          <li> <Link href={"/faleconosco "}> FALE CONOSCO</Link></li>
-          <li> <Link href={"/produtos"}>  </Link> PRODUTOS </li>
+          <li> <Link href={'/'}> INICIO   <Image src={IconeHome} className="px-6 inline" /> </Link>  </li>
+          <li> <Link href="/quemsomos">QUEM SOMOS <Image src={QuemSomos} className="px-5 inline" /> </Link>  </li>
+          <li> <Link href={"/ondeestamos"}> ONDE ESTAMOS <Image src={OndeEstamos} className="px-5 inline" /> </Link></li>
+          <li> <Link href={"/faleconosco "}> FALE CONOSCO <Image src={FaleConosco} className="px-5 inline " /> </Link></li>
+          <li> <Link href={"/produtos"}>  </Link> PRODUTOS <Image src={Produtos} className="px-5 inline" /></li>
         </ul>
         
       </nav>
