@@ -1,38 +1,19 @@
 .cabecalho {
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #fffff0;
     width: 100%;
     height: 130px;
     border-radius: 10px;
     position:relative;
-    color: aliceblue;
+    color: black;
     text-shadow: 1px 1px black;
     overflow: visible;
-    font-family: "Arial";
-    font-weight: bold;
-}
-
-.bolo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50vh;
-    height: 50vh;
-    margin: auto;
-   
-}
-
-.paginainicial {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: black;
     
-
 }
-a:hover {
-    font-size: 18px;
-  
-  }
+
+
+
+
