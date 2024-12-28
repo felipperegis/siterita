@@ -28,7 +28,7 @@ export default function Header ({ Component, pageProps }) {
           <li className= {garamond.className} > <Link href={"/faleconosco "}> FALE CONOSCO <Image src={FaleConosco} className="px-5 inline " /> </Link></li>
           <li className= {garamond.className} > <Link href={"/produtos"}>  </Link> PRODUTOS <Image src={Produtos} className="px-5 inline" /></li>
         </ul>
-        
+        <div className="linha"> </div>
       </nav>
     </div> </>
   );

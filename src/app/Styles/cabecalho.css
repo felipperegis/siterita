@@ -11,6 +11,7 @@
     overflow: visible;
     background-color: #ffffff;
     
+    
 }
 
 .bolo {
@@ -33,4 +34,11 @@
 a:hover {
     font-size: 18px;
   
+  }
+
+.linha {
+    width: 150vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #9f5132;
   }

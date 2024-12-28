@@ -14,9 +14,7 @@ export default function Index () {
       
 
       <div>
-        <div className="border-solid border-2 border-sky-500 black">
-
-        </div>
+        
         <Header/>
         <MeiodaPagina/>
         <Image className="bolo" src={Bolo}/>
