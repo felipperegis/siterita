@@ -7,13 +7,30 @@
     height: 130px;
     border-radius: 10px;
     position:relative;
-    color: black;
-    text-shadow: 1px 1px black;
+    color: #9f5132;
     overflow: visible;
-    background-color: black;
+    background-color: #ffffff;
     
 }
 
+.bolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+   
+}
 
+.paginainicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
-
+}
+a:hover {
+    font-size: 18px;
+  
+  }
