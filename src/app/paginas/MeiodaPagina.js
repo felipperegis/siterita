@@ -8,12 +8,14 @@ import  "../Styles/MeiodaPagina.css"
 export default function MeiodaPagina (){
     return (
         <>
-        <div id="MeiodaPagina">
-            <Image src={boloInicial} id="boloInicial"/>
+        <div className="MeiodaPagina">
+            <Image src={boloInicial} className="boloInicial"/>
             
         </div>
-        <div>
-        <Image src={rita} id="RitaMeiodaPagina"/>
+        <div className="linha"></div>
+        <div className="ContainerRitaMeiodaPagina">
+        <Image src={rita} className="RitaMeiodaPagina"/>
+        <p>Apaixonada</p>
         </div>
         </>
     );
