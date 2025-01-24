@@ -1,4 +1,4 @@
-.MeiodaPagina {
+#MeiodaPagina {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -7,15 +7,22 @@
     padding: 10px;
 }
 
-.p {
+#p {
     font-weight: bold;
 }
 
-.boloInicial {
-    height: 40vh;
-    width: 180vh;
+#boloInicial {
+    height: 50vh;
+    width: 160vh;
     
     position: relative;
     
 }
 
+#RitaMeiodaPagina {
+    height: 50vh;
+    width: 160vh;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+}
