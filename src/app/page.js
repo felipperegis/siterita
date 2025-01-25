@@ -17,8 +17,6 @@ export default function Index () {
         
         <Header/>
         <MeiodaPagina/>
-        <Image className="bolo" src={Bolo}/>
-        <Image className="bolo" src={Bolo1}/>
         <Footer/>
         
       </div> 

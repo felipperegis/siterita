@@ -9,15 +9,15 @@
 
 
 .boloInicial {
-    height: 50vh;
-    width: 160vh;
+    height: 40vh;
+    width: 130vh;
     
     position: relative;
     
 }
 
 .RitaMeiodaPagina {
-    height: 20vh;
+    height: vh;
     width: 20vh;
     
     
@@ -36,3 +36,9 @@
     justify-content: space-around;
 }
 
+.bolo2 {
+    height: vh;
+    width: 20vh;
+    flex-direction: initial;
+    padding: 1vh;
+}

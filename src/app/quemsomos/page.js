@@ -3,12 +3,13 @@ import Rita from "../paginas/Imagem/rita.jpg"
 import Image from "next/image"
 import "../Styles/Quemsomos.css"
 
+import { garamond } from "../fonts"
 
 export default function quemsomos () {
   return(
     < >
       <Header/> 
-      <div>
+      <div className= {garamond.className}>
         <div className="layoutquemsomos">
         <Image src= {Rita} className="RitaFotoQuemSomos"/>      
         <h1 className="descriçãoprimeiroparagrafo">Sobre Mim
@@ -19,6 +20,7 @@ Meu foco principal é confeccionar delícias como brigadeiros e bolos que transf
 
 Permita-me adoçar seus momentos especiais com minhas criações. Vamos juntos transformar suas comemorações em memórias deliciosas e inesquecíveis.</h1>
       </div>
+      <div className="linha"></div>
     </div>  
     </>
   )
